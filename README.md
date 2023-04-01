@@ -12,7 +12,7 @@ The preset is available in German, but there is not so much to translate. The te
 
 ## Getting started
 
-Download the release file. Create a "Database" activity in Moodle and then upload the ZIP file in the "Presets" tab under "Import".
+Download the [release file](https://github.com/fdagner/fictional-interview__moodle-database-preset/releases/tag/publish). Create a "Database" activity in Moodle and then upload the ZIP file in the "Presets" tab under "Import".
 
 ## Screenshots
 
