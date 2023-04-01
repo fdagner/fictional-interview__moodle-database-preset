@@ -1,0 +1,24 @@
+<div style="display: none;" id="audiofile">[[Audio]]</div>
+<div style="max-width: 1200px;margin: 0 auto;"><audio style="padding-bottom:10px;float: right" id="audioplayer" controls></audio><h2>[[Thema]]</h2>
+##userpicture## ##user## am ##timemodified## ##edit## ##delete##
+<hr>
+<div>[[Teaser]]</div><br>
+<div class="photo">[[Foto]]</div><br>
+<script>
+// Hole das audiofile-Div
+const audiofileDiv = document.getElementById('audiofile');
+// Extrahiere den Link aus dem audiofile-Div
+const audioLinkElement = audiofileDiv.querySelector('a');
+if (!audioLinkElement) {
+  console.error('Der Audio-Link wurde nicht gefunden!');
+} else {
+// Hole den Audioplayer
+const audioLink = audioLinkElement.getAttribute('href');
+const audioPlayer = document.getElementById('audioplayer');
+// Setze den Link als Quelle des Audioplayers
+audioPlayer.src = audioLink;
+}
+</script>
+<br>[[Text]]
+</div>
+

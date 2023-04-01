@@ -1,0 +1,10 @@
+td.photo img {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.photo img {
+max-width: 90%;
+}
