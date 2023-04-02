@@ -6,7 +6,8 @@ td.photo img {
 }
 
 .photo img {
-max-width: 90%;
+width: 500px;
+max-width: 100%;
 }
 
 .dropdown-menu .icon.fa.fa-search-plus.fa-fw::after {
@@ -43,10 +44,7 @@ font-family: "Titillium Web",Arial,sans-serif;
   display: none;
 }
 
-.unsetteaser div {
-all: unset!important;
-}
 
-.unsetteaser span {
+.unsetteaser * {
 all: unset!important;
 }
