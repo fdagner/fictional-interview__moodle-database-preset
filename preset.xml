@@ -24,7 +24,7 @@
 <name>Text</name>
 <required>0</required>
 <param2>60</param2>
-<param3>35</param3>
+<param3>25</param3>
 <param4>1</param4>
 <param5>0</param5>
 </field>
@@ -41,7 +41,7 @@
 <name>Teaser</name>
 <required>0</required>
 <param2>60</param2>
-<param3>35</param3>
+<param3>10</param3>
 <param4>1</param4>
 <param5>0</param5>
 </field>
