@@ -8,3 +8,45 @@ td.photo img {
 .photo img {
 max-width: 90%;
 }
+
+.dropdown-menu .icon.fa.fa-search-plus.fa-fw::after {
+  content: " Einzelansicht";
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+
+.dropdown-menu .icon.fa.fa-pencil.fa-fw::after {
+content: " Bearbeiten";
+font-family: "Titillium Web",Arial,sans-serif;
+}
+
+.dropdown-menu .icon.fa.fa-cog.fa-fw::after {
+  content: " Bearbeiten";
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+
+.dropdown-menu .icon.fa.fa-trash.fa-fw::after {
+  content: " Löschen";
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+
+.dropdown-menu .icon.fa.fa-ban.fa-fw.iconsmall::after {
+  content: " Nicht freigeben";
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+
+.dropdown-menu .icon.fa.fa-thumbs-up.fa-fw.iconsmall::after {
+  content: " Zulassen";
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+
+.dropdown-item:empty {
+  display: none;
+}
+
+.unsetteaser div {
+all: unset!important;
+}
+
+.unsetteaser span {
+all: unset!important;
+}
