@@ -11,6 +11,8 @@ const audiofileDiv = document.getElementById('audiofile');
 const audioLinkElement = audiofileDiv.querySelector('a');
 if (!audioLinkElement) {
   console.error('Der Audio-Link wurde nicht gefunden!');
+  const audioPlayer = document.getElementById('audioplayer');
+  audioplayer.style.display = "none";
 } else {
 // Hole den Audioplayer
 const audioLink = audioLinkElement.getAttribute('href');
